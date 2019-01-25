@@ -13,8 +13,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/', function(req, res) {
-	console.log('Start!');
-	res.send('<h1>Oya!</h1>');
+	// console.log('Start!');
+	// res.send('<h1>Oya!</h1>');
+	res.render('index');	
 });
 
 app.listen(3000);
