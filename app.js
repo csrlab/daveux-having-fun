@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/', function(req, res) {
 	console.log('Start!');
-	res.send('Oya!');
+	res.send('<h1>Oya!</h1>');
 });
 
 app.listen(3000);
