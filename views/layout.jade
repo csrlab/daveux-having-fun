@@ -1,13 +1,11 @@
-doctype html
 html
   head
-  body
-    html
-      title Jumbotron Template for Bootstrap
+  	title Jumbotron Template for Bootstrap
       // Bootstrap core CSS
-      link(href='css/bootstrap.css', rel='stylesheet')
-      nav.navbar.navbar-inverse.navbar-fixed-top
-        .container
+    link(href='css/bootstrap.css', rel='stylesheet')
+  body
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      .container
           .navbar-header
             button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
               span.sr-only Daveux Tech
@@ -24,8 +22,8 @@ html
               li
                 a(href='/contact') Contact
           // /.nav-collapse
-        block content
-        hr
-        footer
-          p © 2016 Company, Inc.
+        block content  
+          hr
+          footer
+            p © 2016 Company, Inc.
       // /container
