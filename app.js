@@ -16,7 +16,12 @@ app.use(express.static(path.join(__dirname,'public')));
 app.get('/', function(req, res) {
 	// console.log('Start!');
 	// res.send('<h1>Oya!</h1>');
-	res.render('index');	
+	res.render('index');
+
+});
+app.get('/about', function(req, res) {
+	res.render('about');
+		
 });
 
 app.listen(3000);
