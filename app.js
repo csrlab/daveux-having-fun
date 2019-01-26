@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname,'public')));
 app.get('/', function(req, res) {
 	// console.log('Start!');
 	// res.send('<h1>Oya!</h1>');
-	res.render('index', {title: 'Daveux Hosts!'});
+	res.render('index', {title: "Daveux Hosts!"});
 
 });
 app.get('/about', function(req, res) {
