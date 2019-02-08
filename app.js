@@ -26,8 +26,8 @@ app.get('/about', function(req, res) {
 app.get('/contact', function(req, res) {
 	res.render('contact');
 });
-app.post('/contact', function(req, res) {
-    res.render('contact');
+app.post('/contact/send', function(req, res) {
+    console.log('Test');
 });
 
 app.listen(3000);
