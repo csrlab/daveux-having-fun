@@ -35,7 +35,7 @@ app.post('/contact/send', function(req, res) {
 		}
 	});
     let mailOptions = {
-    	from:
+    	from: 'Daveux <daveux67@gmail.com>'
 	}
 
 });
