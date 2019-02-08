@@ -38,6 +38,7 @@ app.post('/contact/send', function(req, res) {
     	from: 'Daveux <daveux67@gmail.com>',
 		to: 'david.odeyinka@yahoo.com',
 		subject: 'Submission'
+		text: 'You have a submission with the follwing details... Name: 'req.body.name+
 	}
 
 });
