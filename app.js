@@ -28,13 +28,13 @@ app.get('/contact', function(req, res) {
 });
 app.post('/contact/send', function(req, res) {
     let transporter = nodemailer.createTransport({
-		service: 'Gmail'
+		service: 'Gmail',
 		auth: {
-			user: 'daveux67@gmail.com'
+			user: 'daveux67@gmail.com',
 			pass: ''
 		}
 	});
-    
+
 });
 
 app.listen(3000);
