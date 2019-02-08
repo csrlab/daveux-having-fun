@@ -37,6 +37,7 @@ app.post('/contact/send', function(req, res) {
     let mailOptions = {
     	from: 'Daveux <daveux67@gmail.com>',
 		to: 'david.odeyinka@yahoo.com'
+		subject: 'Submission'
 	}
 
 });
